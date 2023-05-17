@@ -1,0 +1,79 @@
+@import url(./style.css);
+.col-8 .nav {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.col-8 .nav :nth-child(1) {
+  text-decoration: none;
+  color: #000;
+}
+.col-8 .nav :nth-child(2) {
+  text-decoration: none;
+  color: #000;
+}
+.col-8 .nav :nth-child(3) {
+  text-decoration: none;
+  color: #000;
+}
+.col-8 .nav :nth-child(4) a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.col-8 .nav :nth-child(4) a span {
+  color: #fd7e14;
+}
+.col-8 .nav :nth-child(5) img {
+  width: 90px;
+  height: 50px;
+}
+.col-8 .nav :nth-child(6) img {
+  width: 90px;
+  height: 50px;
+}
+.col-8 .btn :hover {
+  background-color: #fd7e14;
+  color: #fff;
+}
+
+.col-4 .num {
+  list-style: none;
+  align-items: center;
+}
+.col-4 .num img {
+  width: 80px;
+  height: 40px;
+}
+.col-4 .country {
+  list-style: none;
+  align-items: center;
+  color: #000;
+}
+.col-4 .country :nth-child(1) a :nth-child(1) img {
+  width: 50px;
+  height: 50px;
+}
+.col-4 .country :nth-child(1) :nth-child(3) img {
+  width: 10px;
+  height: 10px;
+}
+.col-4 .country :nth-child(1) :nth-child(2) p {
+  text-decoration: none;
+}
+.col-4 .user a {
+  color: #000;
+  font-size: 30px;
+}
+.col-4 .user p {
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.header {
+  background: #f7f7f7;
+}/*# sourceMappingURL=style.css.map */
